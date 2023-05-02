@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BootStrap案例</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+	<style>
+		.index-h2{
+			font-size:calc(1.8rem + 0.6vw);
+		}
+		.index-p{
+			font-size:calc(0.9rem + 0.1vw);
+		}
+		.index-h1{
+			font-size:calc(3rem + 2vw);
+		}
+		.index-p1{
+			font-size:calc(0.8rem + 0.5vw);
+		}
+		
+		
+		@media(min-width:576px) and (min-width:767px){
+			
+		}
+		
+		@media(min-width:768px) and (min-width:991px){
+			
+		}
+		
+		@media(min-width:992px) and (min-width:1199px){
+			
+		}
+		
+		@media (min-width:1200px) {
+			.index-h2{
+				font-size:270%;
+			}
+			.index-p{
+				font-size:100%;
+			}
+			.index-h1{
+				font-size:600%;
+			}
+			.index-p1{
+				font-size:150%;
+			}
+		}
+	</style>
+	<script>
+		
+		
+	</script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark py-2 fixed-top-md">
+		<a href="#" class="navbar-brand">
+			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bootstrap-fill align-top mr-1" viewBox="0 0 16 16" style="width: 30px;height: 30px; color:white">
+			  <path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"/>
+			  <path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396H5.062z"/>
+			</svg>
+			BootStrap
+		</a>
+		
+		<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#narbarCollapse">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse" id="narbarCollapse">
+			<ul class="navbar-nav  mr-auto">
+				<li class="nav-item active"> 
+					<a href="#" class="nav-link">首页</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">图片</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">产品</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">关于</a>
+				</li>
+			</ul>
+			
+			<form action="#" class="form-inline">
+				<div class="form-group mr-2">
+					<input type="text" class="form-control" placeholder="输入关键字">
+				</div>
+				<div class="form-group ">
+					<input type="submit" name="" id="" value="搜索" class="btn btn-outline-light" />
+				</div>
+			</form>
+		</div>
+	</nav>
+	
+	<div class="carousel slide" data-ride="carousel" id="carouselSlide" style="background-color: #101010;">
+		<ul class="carousel-indicators">
+			<li data-target="#carouselSlide" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselSlide" data-slide-to="1"></li>
+			<li data-target="#carouselSlide" data-slide-to="2"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/banner4.jpg" alt="0" class="d-block img-fluid mx-auto">
+			</div>
+			<div class="carousel-item">
+				<img src="img/banner2.jpg" alt="1" class="d-block img-fluid mx-auto">
+			</div>
+			<div class="carousel-item">
+				<img src="img/banner5.jpg" alt="2" class="d-block img-fluid mx-auto">
+			</div>
+		</div>
+		<a href="#carouselSlide" class="carousel-control-prev" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</a>
+		<a href="#carouselSlide" class="carousel-control-next" role="button" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</a>
+	</div>
+	
+	<div class="bg-light">
+		<div class="text-center text-light bg-danger py-5">
+			<h1 class="display-2 pb-2 index-h1">优质游戏外设</h1>
+			<p class="lead text-light index-p1">顶级外设，价格美丽，活动丰富，快来选购</p>
+		</div>
+		
+		<div class="bg-light py-5">
+			<div class="container" >
+				<div class="row my-4">
+					<div class="col-md-6 my-2">
+						<a href="#" class="text-decoration-none">
+							<div class="media bg-light">
+								<img src="img/image1.jpg" alt="0" width="40%" class="rounded-lg img-thumbnail mr-3 img-fluid">
+								<div class="media-body align-self-center">
+									<h2 class="mb-2 text-dark index-h2">游戏笔记本</h3>
+									<p class="text-muted index-p">ROG枪神7 英特尔13代酷睿i9 RTX4060 RTX4070显卡16英寸星云屏高端电竞吃鸡游戏本笔记本电脑玩家国度旗舰店</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-md-6 my-2">
+						<div class="media bg-light">
+							<div class="media-body align-self-center order-md-2">
+								<h2 class="mb-2 index-h2">游戏笔记本</h3>
+								<p class="text-muted index-p">ROG枪神7 英特尔13代酷睿i9 RTX4060 RTX4070显卡16英寸星云屏高端电竞吃鸡游戏本笔记本电脑玩家国度旗舰店</p>
+							</div>
+							<img src="img/image2.jpg" alt="0" width="40%" class="rounded-circle img-thumbnail mr-3 order-md-1 img-fluid">
+						</div>
+					</div>
+				</div>
+				<div class="row my-4">
+
+					<div class="col-md-6 my-2 order-md-2">
+						<div class="media bg-light">
+							<img src="img/img4.jpg" alt="0" width="40%" class="rounded-lg img-thumbnail mr-3 img-fluid">
+							<div class="media-body align-self-center">
+								<h2 class="mb-2 index-h2">游戏笔记本</h3>
+								<p class="text-muted index-p">ROG枪神7 英特尔13代酷睿i9 RTX4060 RTX4070显卡16英寸星云屏高端电竞吃鸡游戏本笔记本电脑玩家国度旗舰店</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 my-2 order-md-1">
+						<a href="#" class="text-decoration-none">
+							<div class="media bg-light">
+								<div class="media-body align-self-center order-md-2">
+									<h2 class="mb-2 text-dark index-h2">游戏笔记本</h3>
+									<p class="text-muted index-p">ROG枪神7 英特尔13代酷睿i9 RTX4060 RTX4070显卡16英寸星云屏高端电竞吃鸡游戏本笔记本电脑玩家国度旗舰店</p>
+								</div>
+								<img src="img/image3.jpg" alt="0" width="40%" class="rounded-circle img-thumbnail mr-3 order-md-1 img-fluid">
+								
+							</div>
+						</a>
+					</div>
+				</div>
+				
+				<div class="row my-4">
+					<div class="col-md-6 my-2">
+						<a href="#" class="text-decoration-none">
+							<div class="media bg-light">
+								<img src="img/image5.jpg" alt="0" width="40%" class="rounded-lg img-thumbnail mr-3 img-fluid">
+								<div class="media-body align-self-center">
+									<h2 class="mb-2 text-dark index-h2">游戏笔记本</h3>
+									<p class="text-muted index-p">ROG枪神7 英特尔13代酷睿i9 RTX4060 RTX4070显卡16英寸星云屏高端电竞吃鸡游戏本笔记本电脑玩家国度旗舰店</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-md-6 my-2">
+						<div class="media bg-light">
+							<div class="media-body align-self-center order-md-2">
+								<h2 class="mb-2 index-h2">游戏笔记本</h3>
+								<p class="text-muted index-p">ROG枪神7 英特尔13代酷睿i9 RTX4060 RTX4070显卡16英寸星云屏高端电竞吃鸡游戏本笔记本电脑玩家国度旗舰店</p>
+							</div>
+							<img src="img/image6.webp" alt="0" width="40%" class="rounded-circle img-thumbnail mr-3 order-md-1 img-fluid">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="bg-dark text-muted text-center d-flex flex-column justify-content-center" style="height: 200px;">
+		<b>淘宝Four-five外设旗舰店</b>
+		<span>苏ICP 备12345678. © 2009-2020 Bootstrap4.x. Powered by Bootstrap.</span>
+	</footer>
+	
+	
+</body>
+</html>
